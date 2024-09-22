@@ -1,7 +1,7 @@
 
-# Welcome to My blog! 👋
+# Cvetelin Radkov Stoimenov 👋
 
-Hello, I'm **Cvetelin Stoimenov**, currently embarked on a thrilling journey in Automation QA at SoftUni. 🚀
+With 16 years of professional experience in managerial roles, I have always been passionate about new technologies and exploring innovative applications. Pursuing my passion for growth and discovery, I decided to shift my career path and completed the QA program at SoftUni with distinction. I am committed to continuous learning and development, seeking opportunities to expand my knowledge and skills.
 
 ### Languages and Tools:
 
