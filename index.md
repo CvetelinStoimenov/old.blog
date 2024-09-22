@@ -1,3 +1,7 @@
+---
+layout: default
+title: Cvetelin Stoimenov QA Blog
+---
 
 ## Welcome to My QA Projects
 
