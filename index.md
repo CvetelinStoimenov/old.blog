@@ -1,7 +1,120 @@
 
-# Cvetelin Radkov Stoimenov 👋
+## Welcome to My QA Projects
 
-With 16 years of professional experience in managerial roles, I have always been passionate about new technologies and exploring innovative applications. Pursuing my passion for growth and discovery, I decided to shift my career path and completed the QA program at SoftUni with distinction. I am committed to continuous learning and development, seeking opportunities to expand my knowledge and skills.
+As an aspiring Quality Assurance (QA) professional, I am excited to share my journey and showcase the projects I’ve developed. This GitHub repository reflects my dedication to learning and applying QA principles through practical examples.
+
+### What You'll Find Here
+
+- **Diverse Projects:** Each project highlights different aspects of QA, including manual testing, automated testing, and CI/CD integration.
+- **Hands-On Experience:** I’ve implemented various testing strategies using tools like Selenium, Postman, and JMeter, focusing on real-world applications and scenarios.
+- **Documentation:** Each project is accompanied by detailed documentation, including setup instructions, testing methodologies, and challenges faced during development.
+
+### My Commitment
+
+I am passionate about ensuring software quality and user satisfaction. Through continuous learning and experimentation, I aim to contribute effectively to the tech industry. I welcome feedback and collaboration, so feel free to explore my projects and connect with me!
+
+
+<h2 style="color: #2E86C1;">Building Scalable Automated UI Tests for Foody’s Core Functionalities</h2>
+<p>Automating UI tests is crucial for ensuring the functionality and reliability of web applications. In this project, I focused on creating automated tests for <strong>Foody's core features</strong>, including creating, editing, and deleting food items, as well as searching through the menu. Using <strong>Selenium WebDriver</strong> for automation, I ensured these tests run across different browsers.</p>
+
+<h3 style="color: #1ABC9C;">Step-by-Step Breakdown</h3>
+<ol>
+  <li><strong>Set up the testing environment:</strong> I started by configuring Selenium WebDriver with <strong>Google Chrome</strong> as the browser of choice. Installing the latest WebDriver, along with setting up <strong>Visual Studio</strong> for C#, allowed me to integrate the tests smoothly.</li>
+  <li><strong>Create Test Scenarios:</strong> Based on the functional requirements, I outlined the following test scenarios:
+    <ul>
+      <li>Log in to the Foody app.</li>
+      <li>Add a new food item.</li>
+      <li>Edit the food item.</li>
+      <li>Delete the food item.</li>
+      <li>Search for a specific food item.</li>
+    </ul>
+  </li>
+  <li><strong>Writing Selenium Tests:</strong> Each scenario was translated into a series of test cases. Below is an example of the test for adding a new food item.
+  </li>
+</ol>
+
+<h3 style="color: #1ABC9C;">Example Selenium Test Script</h3>
+<p>The test below demonstrates how Selenium interacts with the browser to automate the process of adding a new food item.</p>
+<pre style="background-color: #F0F3F4; padding: 10px;"><code>public void AddFoodItemTest()
+{
+    IWebDriver driver = new ChromeDriver();
+    driver.Navigate().GoToUrl("https://foody-app.com");
+
+    // Log in
+    var login = driver.FindElement(By.Id("login"));
+    login.SendKeys("testuser");
+    login.Submit();
+
+    // Add a new food item
+    var addButton = driver.FindElement(By.Id("addItem"));
+    addButton.Click();
+    
+    var itemName = driver.FindElement(By.Id("itemName"));
+    itemName.SendKeys("Pasta Carbonara");
+    itemName.Submit();
+    
+    driver.Quit();
+}
+</code></pre>
+
+<h3 style="color: #1ABC9C;">Challenges Faced and Solutions</h3>
+<ul>
+  <li><strong>Dynamic Element Loading:</strong> The add button took a while to load, so I incorporated <code>WebDriverWait</code> to ensure that the element is clickable before the test proceeds.</li>
+  <li><strong>Cross-Browser Testing:</strong> Selenium made it easy to run tests on both Chrome and Firefox browsers. I configured my tests using the WebDriver factory to switch between browsers effortlessly.</li>
+</ul>
+
+<h3 style="color: #1ABC9C;">Test Process Overview</h3>
+<table border="1" style="width: 100%; border-collapse: collapse; text-align: center;">
+    <tr style="background-color: #D5F5E3;">
+        <th>Test</th>
+        <th>Description</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>Login Test</td>
+        <td>Ensure login functionality works correctly</td>
+        <td style="color: green;">Passed</td>
+    </tr>
+    <tr>
+        <td>CRUD Operations</td>
+        <td>Create, edit, delete, and search food items</td>
+        <td style="color: green;">Passed</td>
+    </tr>
+</table>
+
+<h3 style="color: #1ABC9C;">Postman API Testing for Backend</h3>
+<p>To complement the UI tests, I used <strong>Postman</strong> for testing the API endpoints responsible for CRUD operations. Below is the Postman JSON collection used to test the API:</p>
+<pre style="background-color: #FCF3CF; padding: 10px;"><code>{
+    "info": {
+        "name": "Food Item API",
+        "description": "Testing CRUD operations for food items"
+    },
+    "item": [
+        {
+            "name": "Create Item",
+            "request": {
+                "method": "POST",
+                "url": "https://api.foody-app.com/items",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\":\"Pasta Carbonara\", \"category\":\"Italian\"}"
+                }
+            }
+        }
+    ]
+}</code></pre>
+
+<h3 style="color: #1ABC9C;">Conclusion</h3>
+<p>This project showcased the importance of end-to-end testing, ensuring both the front-end UI and back-end API layers work harmoniously. I was able to build a reliable, scalable, and automated testing process using Selenium and Postman. These automated tests reduced regression testing time significantly and helped maintain code quality across releases.</p>
+
+<h3 style="color: #1ABC9C;">Additional Resources</h3>
+<ul>
+    <li><a href="https://github.com/your-repo/selenium-tests">View Selenium Test Repository</a></li>
+    <li><a href="https://www.selenium.dev/">Selenium Official Website</a></li>
+</ul>
+<img src="https://example.com/selenium-dashboard.png" alt="Selenium Test Results" style="border: 1px solid #D6DBDF; padding: 5px;" />
+
+
 
 ### Languages and Tools:
 
@@ -21,96 +134,3 @@ With 16 years of professional experience in managerial roles, I have always been
    <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" /> </a>
    <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" /> </a>
 </p>
-
-   
-## Courses Completed:
-
-1. **Agile Essentials with Scrum - February 2023:**
-   - Started on Feb 8, 2023, and completed with the exam on Mar 18, 2023.
-   - Explored the fundamental values and principles of Agile methodology and its practical application in software development. 🌐
-   - Examined different methodologies and their application, with a focus on the Scrum framework.
-   - Learned about roles, phases, and events in Scrum for building stable and successful teams.
-   - Acquired skills in using basic techniques for **complexity assessment** and **prioritization**. 💡
-   - Explored ways to measure key parameters of Agile teams.
-
-2. **Agile Advanced with Scrum - March 2023:**
-   - Started on Mar 22, 2023, and completed with the exam on Apr 25, 2023.
-   - Deepened knowledge of Agile methodology and Scrum framework.
-   - Detailed understanding of **team roles** and **responsibilities** and internal and external interactions.
-   - Explored various methods for **progress and product assessment** by a Scrum team.
-   - Gained insights into **risk assessment** and **management** for maximum team efficiency.
-   - Focused on the practical application of Agile tools widely used today. 🛠️
-
-3. **Software Technologies - May 2023:**
-   - Started on May 9, 2023, and completed with the exam on June 25, 2023.
-   - Explored various aspects of the software industry. 💻
-   - Covered **software and hardware components** of a computer system.
-   - Learned about different operating systems (Windows, Linux), networks, and protocols (HTTP, SMTP, IMAP).
-   - Introduced to **programming languages**, software architectures, and basic **relational and non-relational databases**.
-   - Worked with project management tools. 📊
-
-4. **QA Fundamentals and Manual Testing - June 2023:**
-   - Started on June 27, 2023, and completed with the exam on August 12, 2023.
-   - Explored fundamental concepts of **Software Quality Assurance (QA)**. 🕵️‍♂️
-   - Learned **defect identification** through proper input data and user experience testing.
-   - Practiced various testing approaches and assessed when to use each.
-   - Explored testing characteristics related to **performance, security, compatibility**, and more.
-   - Examined different techniques and tools for **manual testing** of entire projects.
-
-5. **Programming Fundamentals and Unit Testing - September 2023:**
-   - Started on September 11, 2023, and completed the online exam on November 5, 2023.
-   - Explored fundamental programming concepts as a foundation for automated testing. 🧪
-   - Upgraded knowledge from the QA Fundamentals (Manual) module and began learning basic coding skills, working with IDEs, using variables and data, operators and expressions, console input/output, conditional constructs (if, if-else), loops (for, while, do-while), and unit testing.
-   - Studied basic programming structures such as **arrays and lists**.
-   - Gained an understanding of upcoming professional modules and knowledge to become successful professionals in automated software testing.
-
-6. **Programming Advanced for QA - November 2023:**
-   - Started on November 6, 2023, and completed with the exam on December 22, 2023.
-   - Covered advanced programming topics including associative arrays, lambda expressions, LINQ, and OOP.
-   - Worked with static members, template types, and exception handling.
-   - Completed an OOP project and tested it using popular methodologies.
-   
-7. **Back-End Technologies Basics - January 2024:**
-   - Started on January 8, 2024, and completed with the exam on February 25, 2024.
-   - Covered basics of data formats (JSON, YAML, XML), containerization (Docker), and web services (HTTP, REST).
-   - Gained hands-on experience with Postman and Swagger.
-
-8. **Back-End Test Automation - March 2024:**
-   - Started on March 4, 2024, and completed with the exam on April 15, 2024.
-   - Explored performance and stress testing with tools like JMeter, BlazeMeter, and K6.
-   - Practical experience with API testing using C#, NUnit, and RestSharp.
-
-9. **Front-End Technologies Basics - May 2024:**
-   - Started on May 13, 2024, and completed with the exam on July 1, 2024.
-   - Learned HTML, CSS, JavaScript, DOM manipulation, and AJAX.
-   - Gained experience with qUnit and Playwright for front-end testing.
-     
-9. **Front-End Test Automation - July 2024:**
-   - Started on July 1, 2024, and completed with the exam on August 21, 2024.
-   - Advanced front-end test automation using Selenium, Appium, and Sikuli.
-   - Focused on test automation architecture and security testing.
-
-## Skills Acquired:
-- 🌐 Accessing and working with **remote resources**.
-- 💻 Recognizing **hardware and software components** in a computer system.
-- 🖥️ Working with various **operating systems**.
-- 📝 Basic proficiency in different **programming languages**.
-- 📊 Project management using various tools.
-- 📂 Handling **relational and non-relational databases**.
-- 🕵️‍♂️ Software testing techniques: **black box, white box, regression**. 🧪
-- 🐛 Working with **defect tracking systems**.
-- 🌐 **Manual testing** of software projects.
-- 📜 **Testing web-based systems**.
-- 💽 Working with **software requirements specifications**.
-- 📬 Skills in working with **relational databases**.
-- 📬 Executing **HTTP requests with Postman**.
-- 🧪 **Unit Testing (Component Testing)**.
-- 🚀 Using standard functionality of **programming languages**.
-- 📊 Working with **linear data structures**.
-- 📞 Declaring and invoking **methods**.
-- 🎓 Understanding fundamental concepts of **automated testing**.
-
-## Certifications:
-1. [Agile Essentials with Scrum Certificate](https://softuni.bg/certificates/details/171145/f24cb7e4) 🚀
-2. [Agile Advanced with Scrum Certificate](https://softuni.bg/certificates/details/171145/f24cb7e4) 💽
-3. [Software Technologies Certificate](https://softuni.bg/certificates/details/175506/b5bc64f7) 💻
