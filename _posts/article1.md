@@ -1,0 +1,12 @@
+/blog
+    /_layouts
+        default.html
+    /_posts
+        article1.md
+        article2.md
+    /pages
+        index.md
+        about.md
+    _config.yml
+    _data
+        navigation.yml
