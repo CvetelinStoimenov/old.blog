@@ -1,6 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+
 
 title: Cvetelin Stoimenov QA Blog
 description: As an aspiring Quality Assurance (QA) professional, I am excited to share my journey and showcase the projects I’ve developed. This GitHub repository reflects my dedication to learning and applying QA principles through practical examples.
