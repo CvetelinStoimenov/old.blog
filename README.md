@@ -1,3 +1,6 @@
+# Cvetelin Stoimenov QA Blog
+Welcome to my QA Blog! Here, I'll share insights, tutorials, and case studies related to Quality Assurance, testing tools, and best practices.
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Blog Topics](#blog-topics)
@@ -30,10 +33,6 @@
 
 &nbsp;I’m eager to see what the future holds as I step into a role that not only excites me but allows me to continually grow, learn, and make a difference.
 
-
-# Cvetelin Stoimenov QA Blog
-
-Welcome to my QA Blog! Here, I'll share insights, tutorials, and case studies related to Quality Assurance, testing tools, and best practices.
 
 ## Introduction
 This blog is dedicated to sharing knowledge about Quality Assurance and Software Testing. Whether you're new to QA or a seasoned professional, you'll find valuable information here.
