@@ -5,7 +5,7 @@ title: Cvetelin Stoimenov QA Blog
 
 ## Welcome to My QA Projects
 
-- [Integrating Selenium and GitHub Actions for a Seamless CI/CD Workflow](/_posts/article1.md)
+- [Why I Left My Position as Sales Associate at AUTO HELP Ltd: A Search for Growth and New Opportunities](/_posts/2024-09-22-my-first-post.md)
 - [Your Next Article Title](/_posts/article2.md) 
 ### What You'll Find Here
 
