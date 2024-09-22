@@ -1,3 +1,9 @@
+## Table of Contents
+- [Introduction](#introduction)
+- [Blog Topics](#blog-topics)
+- [How to Contribute](#how-to-contribute)
+- [Contact](#contact)
+
 ![Dinosaur](https://stupiddope.com/wp-content/uploads/2023/06/Unlocking-New-Possibilities-The-Significance-of-Distinguishing-Real-Opportunities.jpg)
 
 &nbsp;After several years of dedicated work as a Sales Associate at AUTO HELP Ltd, I made the difficult decision to move on. This was not an easy choice, as I had gained valuable skills and experiences in the sales industry, especially in working with automotive products and solutions. However, after careful consideration, I realized that the opportunities for growth in my position had become limited, and the company was unable to provide the advancement I was seeking.
@@ -25,15 +31,9 @@
 &nbsp;I’m eager to see what the future holds as I step into a role that not only excites me but allows me to continually grow, learn, and make a difference.
 
 
-# CvetelinS toimenov QA Blog
+# Cvetelin Stoimenov QA Blog
 
 Welcome to my QA Blog! Here, I'll share insights, tutorials, and case studies related to Quality Assurance, testing tools, and best practices.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Blog Topics](#blog-topics)
-- [How to Contribute](#how-to-contribute)
-- [Contact](#contact)
 
 ## Introduction
 This blog is dedicated to sharing knowledge about Quality Assurance and Software Testing. Whether you're new to QA or a seasoned professional, you'll find valuable information here.
