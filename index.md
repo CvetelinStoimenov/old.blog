@@ -6,8 +6,7 @@ title: Cvetelin Stoimenov QA Blog
 ## Welcome to My QA Projects
 
 - [Integrating Selenium and GitHub Actions for a Seamless CI/CD Workflow](/_posts/article1.md)
-- [Your Next Article Title](/_posts/article2.md)
-
+- [Your Next Article Title](/_posts/article2.md) 
 ### What You'll Find Here
 
 - **Diverse Projects:** Each project highlights different aspects of QA, including manual testing, automated testing, and CI/CD integration.
