@@ -1,0 +1,6 @@
+- title: Home
+  url: /pages/index.md
+- title: About
+  url: /pages/about.md
+- title: Articles
+  url: /_posts/
