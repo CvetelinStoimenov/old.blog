@@ -1,5 +1,3 @@
-# CvetelinStoimenov.github.io
-
 ![Dinosaur](https://stupiddope.com/wp-content/uploads/2023/06/Unlocking-New-Possibilities-The-Significance-of-Distinguishing-Real-Opportunities.jpg)
 
 &nbsp;After several years of dedicated work as a Sales Associate at AUTO HELP Ltd, I made the difficult decision to move on. This was not an easy choice, as I had gained valuable skills and experiences in the sales industry, especially in working with automotive products and solutions. However, after careful consideration, I realized that the opportunities for growth in my position had become limited, and the company was unable to provide the advancement I was seeking.
