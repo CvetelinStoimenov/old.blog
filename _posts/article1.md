@@ -1,8 +1,7 @@
 ---
 title: Integrating Selenium and GitHub Actions for a Seamless CI/CD Workflow
 layout: post
----
-
+--- 
 ## Integrating Selenium and GitHub Actions for a Seamless CI/CD Workflow
 
 Continuous Integration and Continuous Deployment (CI/CD) allow for automated testing and seamless deployment of code. In this project, I built a CI/CD pipeline using **GitHub Actions** integrated with **Selenium** for automated testing. Every time new code is pushed, tests run automatically, ensuring no broken functionality makes it to production.
