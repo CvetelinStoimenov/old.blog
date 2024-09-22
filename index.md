@@ -1,8 +1,6 @@
 
 ## Welcome to My QA Projects
 
-As an aspiring Quality Assurance (QA) professional, I am excited to share my journey and showcase the projects I’ve developed. This GitHub repository reflects my dedication to learning and applying QA principles through practical examples.
-
 ### What You'll Find Here
 
 - **Diverse Projects:** Each project highlights different aspects of QA, including manual testing, automated testing, and CI/CD integration.
