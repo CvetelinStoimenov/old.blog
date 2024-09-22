@@ -1,9 +1,6 @@
 title
 description
 
-# Cvetelin Stoimenov QA Blog
-Welcome to my QA Blog! Here, I'll share insights, tutorials, and case studies related to Quality Assurance, testing tools, and best practices.
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Blog Topics](#blog-topics)
